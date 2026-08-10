@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mayank — AI Automation Developer & Full-Stack Builder
 
-## Getting Started
+A high-performance "Scrollytelling" personal portfolio website built with **Next.js 16 (App Router)**, **TypeScript**, **Framer Motion**, **HTML5 Canvas**, and **Tailwind CSS**. Features frame-by-frame canvas scrubbing, smooth parallax overlays, real-time FPS telemetry, and a monochrome design system.
 
-First, run the development server:
+---
 
+## ⚡ Core Highlights
+
+- **HTML5 Canvas Scrollytelling**: 150 preloaded image sequence frames scrubbed continuously on the GPU thread via `requestAnimationFrame` with zero DOM reflow.
+- **Unified Scroll Controller**: Single `useScroll` motion target driving both canvas frame scrubbing and parallax content milestones with zero ghosting or overlap.
+- **Monochrome & Silver Aesthetics**: Deep obsidian background (`#050505`), silver typography gradients, and glassmorphic card primitives.
+- **Production Systems Showcase**:
+  - **MessageFlow**: Multi-tenant SaaS with isolated auth, BullMQ/Redis campaign queues, and Socket.io live team chat (Phase 7).
+  - **RAG Chatbot SaaS**: Supabase pgvector retrieval pipeline with 3072-dim Gemini embeddings and HNSW index tuning.
+  - **Used Car Dealership Automation**: End-to-end appraisal intake, PDF generation, and automated review pipeline via self-hosted n8n and Supabase.
+  - **LinkedIn Posting Automation**: Parallel specialist AI agent content swarm with Tavily web grounding.
+  - **AI Invoice & Expense Extractors**: Subworkflow-based structured data extraction into Airtable, Supabase, and Google Sheets.
+- **Live Telemetry HUD**: Real-time FPS meter, frame index counter (`FRAME 000 / 150`), and global scroll progress scrubber.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router, Turbopack)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
+- **Celebration Effects**: Canvas Confetti
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone git@github.com:mayanktr127/My-Portfolio.git
+cd My-Portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run Development Server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+### 4. Production Build
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email**: [mayanktr127@gmail.com](mailto:mayanktr127@gmail.com)
+- **LinkedIn**: [linkedin.com/in/mayanktr127](https://www.linkedin.com/in/mayanktr127)
+- **GitHub**: [github.com/mayanktr127](https://github.com/mayanktr127)
